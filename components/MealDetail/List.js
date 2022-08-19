@@ -3,7 +3,6 @@ import { Text, View, StyleSheet } from "react-native";
 
 const List = ({ data, steps }) => {
   const dataDetail = data;
-  console.log(data);
   return data.map((dataPoint, index) => (
     <View key={dataPoint} style={styles.listItem}>
       <Text style={styles.itemText}>
